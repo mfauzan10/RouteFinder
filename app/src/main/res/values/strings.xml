@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RouteFinder</string>
+    <string name="mapbox_access_token">pk.eyJ1IjoiYWxjcmVkbyIsImEiOiJjazMxZGZib2IwMGIwM2dsZXlrNWt6YjZlIn0.j6EuiTA4bo_bQHzxNljZew</string>
+    <string name="directions_activity_toast_message">Distance : </string>
+</resources>

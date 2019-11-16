@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BasicActivity">
+
+    <Button
+        android:id="@+id/StartButton"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:text="Start" />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100px" >
+
+        <Spinner
+            android:id="@+id/ListLocation"
+            android:layout_width="300dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/DetailButton"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="Detail" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/AllButton"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:text="All" />
+
+</LinearLayout>
